@@ -18,6 +18,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <!--My CSS Style Link-->
     <link rel="stylesheet" href="style.css">
+
+    <!--Animation CDN Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <title>index</title>
 </head>
 <body>
@@ -57,7 +60,7 @@
       <div id="sectionHome">
           <br><br><br>
           
-          <div class="container">
+          <div class="container wow  bounceInLeft ">
               <div class="row">
                   <div class="col-sm-8 bg-light">
                     <img src="Images/ItsMe.png" alt="logo"><br>
@@ -108,7 +111,7 @@
                     </center>
                     <hr>
                 </div>
-                <div class="col-sm-6 academicInfo">
+                <div class="col-sm-6 academicInfo wow bounceInLeft">
                     <text class="txtDegree">B.Sc in Computer Science & Engineering</text><br>
                     <a class="txtInstitution" href="https:www.aiub.edu">American International University-Bangladesh</a><br>
                     ----------<br>
@@ -118,18 +121,18 @@
             </div>
             <div class="row">
                 <div class="col-sm-6"></div>
-                <div class="col-sm-3 academicYear">January,2017 - Current</div>
+                <div class="col-sm-3 academicYear wow bounceInRight">January,2017 - Current</div>
             </div>
             <br><br>
             <!--HSC-->
             <div class="row"> <!--For Academic Year-->
                 <div class="col-sm-3 "></div><!--Empty Column-->
-                <div class="col-sm-3 academicYear">2014 - 2016</div>
+                <div class="col-sm-3 academicYear wow bounceInUp delay-1s">2014 - 2016</div>
             </div>
             <div class="row"> <!--For Academic Info-->
                 <div class="col-sm-3 "></div><!--Empty Column-->
                 <div class="col-sm-3"></div><!--Empty Column-->
-                <div class="col-sm-6 academicInfo">
+                <div class="col-sm-6 academicInfo wow bounceInDown delay-1s">
                     <text class="txtDegree">Higher Secondary Certificate (HSC)</text><br>
                     <a class="txtInstitution" href="http://rcpsc.edu.bd/">Rajendrapur Cantonment Public College</a><br>
                     ----------<br>
@@ -141,7 +144,7 @@
 
             <!--SSC-->
             <div class="row">
-                <div class="col-sm-6 academicInfo">
+                <div class="col-sm-6 academicInfo wow bounceInRight delay-2s">
                     <text class="txtDegree">Secondary School Certificate (SSC)</text><br>
                     <a class="txtInstitution" href="http://barihighschool.edu.bd/Home/Index">BARI High School</a><br>
                     ----------<br>
@@ -152,7 +155,7 @@
 
             <div class="row">
                 <div class="col-sm-6"></div>
-                <div class="col-sm-3 academicYear">2004 - 2014</div>
+                <div class="col-sm-3 academicYear wow bounceInLeft delay-2s">2004 - 2014</div>
             </div>
 
             <hr>
@@ -164,20 +167,20 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow zoomIn delay-0s">
                     <center>
                         <img src="Images/programmingIcon.png" alt="logo" style="width: 40%;"><br>
                         <b><i><h5>Programming</h5></i></b>
                     </center>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow zoomIn delay-1s">
                     <center>
                         <img src="Images/travellingIcon.png" alt="logo" style="width: 40%;"><br>
                         <b><i><h5>Travelling</h5></i></b>
                     </center>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow zoomIn delay-2s">
                     <center>
                         <img src="Images/gammingIcon.svg" alt="logo" style="width: 40%;"><br>
                         <b><i><h5>Gamming</h5></i></b>
@@ -187,20 +190,20 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow zoomIn delay-3s">
                     <center>
                         <img src="Images/bookIcon.png" alt="logo" style="width: 40%;"><br>
                         <b><i><h5>Reading Book</h5></i></b>
                     </center>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow zoomIn delay-4s">
                     <center>
                         <img src="Images/movieIcon.png" alt="logo" style="width: 40%;"><br>
                         <b><i><h5>Movie & Music</h5></i></b>
                     </center>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 wow zoomIn delay-6s">
                     <center>
                         <img src="Images/moneyIcon.png" alt="logo" style="width: 40%;"><br>
                         <b><i><h5>Money</h5></i></b>
@@ -214,29 +217,12 @@
     <!--Skills Section-->
     <div id="sectionSkills">
         <center>
-            <h1>Skills</h1>
-        </center>
-    </div>
-
-    <!--Projects Section-->
-    <div id="sectionProjects">
-        <center>
-            <h1><u><i>My Projects</i></u></h1>
+            <h1><u>Skills</u></h1>
         </center>
 
-        <div id="webSection">
-            <center>
-                <div class="projectsTitle">Web Projects</div>
-            </center>
-
-        </div>
-        <div id="desktopSection">
-            this is desktop projects section
-        </div>
-        <div id="mobileSection">
-            this is mobile projects section
-        </div>
     </div>
+
+   
 
     <!--Contact Section-->
     <div id="sectionContact">
@@ -245,5 +231,27 @@
         </center>
     </div>
       
+
+
+    <!--JAVASCRIPT CDN LINKS AND CODES-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        var wow = new WOW(
+            {
+                boxClass:     'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset:       0,          // distance to the element when triggering the animation (default is 0)
+                mobile:       true,       // trigger animations on mobile devices (default is true)
+                live:         true,       // act on asynchronously loaded content (default is true)
+                callback:     function(box) {
+                // the callback is fired every time an animation is started
+                // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null,    // optional scroll container selector, otherwise use window,
+                resetAnimation: true,     // reset animation on end (default is true)
+            }
+        );
+        wow.init();
+    </script>
 </body>
 </html>
