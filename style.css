@@ -3,7 +3,7 @@ html{
 }
 
 #sectionHome{
-    height: 700px;
+    height: auto;
     background-color: white;
     width: 100%;
     display: inline-block;
@@ -13,7 +13,7 @@ html{
 }
 
 #sectionAbout{
-    height: 1900px;
+    height: auto;
     background-color: rgb(240, 245, 244);
     width: 100%;
     display: inline-block;
@@ -21,7 +21,7 @@ html{
 }
 
 #sectionSkills{
-    height: 700px;
+    height: auto;
     background-color: rgb(236, 236, 232);
     width: 100%;
     display: inline-block;
@@ -37,7 +37,7 @@ html{
 }
 
 #sectionContact{
-    height: 650px;
+    height: auto;
     background-color: rgb(7, 0, 0);
     width: 100%;
     display: inline-block;
@@ -220,4 +220,16 @@ h1{
     margin-left: 7%;
     font-size: medium;
     font-style: normal;
+}
+
+.skillFont
+{
+    font-family: 'Kreon', serif;
+    font-size: large;
+    color: black;
+}
+
+.skillMargin
+{
+    margin-left: 30%;
 }
